@@ -1,0 +1,42 @@
+body {
+    background-color: #1877f2; /* Azzurro stile Facebook */
+    color: #fff; /* Testo bianco per contrasto */
+    font-family: 'Arial', sans-serif; /* Usa un font leggibile */
+}
+
+.container {
+    margin-top: 50px;
+    text-align: center; /* Allinea il testo al centro */
+}
+
+h1 {
+    color: #fff; /* Colore del testo bianco per l'intestazione */
+}
+
+img {
+    max-width: 100%; /* Rendi l'immagine responsive */
+    margin-top: 20px; /* Aggiunge spazio sopra l'immagine */
+}
+
+p {
+    margin-top: 10px; /* Aggiunge spazio sopra i paragrafi */
+    font-size: 1.2em; /* Dimensione del testo più grande */
+    line-height: 1.5; /* Altezza della riga per una migliore leggibilità */
+}
+
+a {
+    color: #fff; /* Colore del testo bianco per il link */
+    text-decoration: none; /* Rimuovi la sottolineatura del link */
+    display: inline-block; /* Rendi il link un blocco per una migliore usabilità */
+    margin-top: 20px; /* Aggiunge spazio sopra il link */
+    padding: 10px 20px; /* Aggiunge spazio intorno al testo del link */
+    background-color: #4caf50; /* Colore verde per il pulsante */
+    border: none; /* Rimuovi il bordo del pulsante */
+    border-radius: 5px; /* Aggiungi bordi arrotondati */
+    transition: background-color 0.3s; /* Aggiungi una transizione al cambio di colore */
+}
+
+a:hover {
+    background-color: #45a049; /* Cambia colore al passaggio del mouse */
+    text-decoration: none; /* Rimuovi la sottolineatura al passaggio del mouse */
+}

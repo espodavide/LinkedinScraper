@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Job Word Cloud Generator</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/styles/homepage.css">
+  </head>
+  <body>
+    <script src="../static/js/ForwardNewPage.js"></script>
+    <div class="container">
+      <div class="row justify-content-center align-items-center min-vh-100">
+        <div class="col-md-8">
+          <div class="text-center mb-5">
+            <h1 class="display-4 text-white">Job Word Cloud Generator</h1>
+            <p class="lead text-white">
+              Genera una nuvola di parole basata sul job title e la location
+              inseriti.
+            </p>
+          </div>
+
+          <!-- Form -->
+          <form
+            id="wordCloudForm"
+            action="http://127.0.0.1:8080/WordCloud"
+            method="post"
+          >
+            <div class="form-group">
+              <label for="jobTitle" class="text-white">Job Title</label>
+              <input
+                type="text"
+                class="form-control"
+                id="jobTitle"
+                name="jobTitle"
+                placeholder="Inserisci il tuo job title"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="location" class="text-white">Location</label>
+              <input
+                type="text"
+                class="form-control"
+                id="location"
+                name="location"
+                placeholder="Inserisci la tua location"
+                required
+              />
+            </div>
+            <button
+              type="button"
+              class="btn btn-primary"
+              onclick="generateWordCloud()"
+            >
+              Genera
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (jQuery, Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Collega il file JavaScript esterno -->
+  </body>
+</html>

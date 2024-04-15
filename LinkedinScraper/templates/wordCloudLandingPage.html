@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Job Word Cloud Page</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="../static/styles/wordCloudLaningPage.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Word Cloud Page</h1>
+        <!-- Mostra l'immagine con percorso dinamico  -->
+        <img src="{{ path_to_image }}" alt="Word Cloud Image" />
+        <!-- Altre informazioni dal form (ad esempio, job title e location) -->
+        <p>Job Title: {{ jobTitle }}</p>
+        <p>Location: {{ location }}</p>
+
+        <!-- Link per tornare alla landing page -->
+        <a href="/">Torna alla Landing Page</a>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (jQuery, Popper.js) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Collega il file JavaScript esterno -->
+</body>
+</html>

@@ -1,0 +1,18 @@
+body {
+    background-color: #1877f2; /* Azzurro stile Facebook */
+    color: #fff; /* Testo bianco per contrasto */
+    font-family: 'Arial', sans-serif; /* Usa un font leggibile */
+}
+
+.container {
+    height: 100vh;
+}
+
+.btn-primary {
+    background-color: #4caf50; /* Colore verde */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #45a049; /* Cambia colore al passaggio del mouse */
+}
