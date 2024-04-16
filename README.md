@@ -12,7 +12,7 @@ In a rapidly evolving technological landscape, job seekers face the challenge of
 
 ## Overview
 
-Welcome to the AirQuality repository! This project is a personal endeavor aimed at create a word-cloud containing all the keywords related to a specif role and location. The technology used are the following:
+Welcome to the LinkedinScraper repository! This project is a personal endeavor aimed at create a word-cloud containing all the keywords related to a specif role and location. The technology used are the following:
 
 * Python
 * Docker
