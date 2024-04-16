@@ -32,8 +32,7 @@ To get started with this project you need to have python and docker installed  a
 
 1. **Clone the Repository:**
    
-        git clone [https://github.com/espodavide/airQuality.git](https://github.com/espodavide/LinkedinScraper.git)
-   
+        git clone https://github.com/espodavide/LinkedinScraper.git
 2. **Install Python Dependencies:**
 
        pip install -r requirements.txt
